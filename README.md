@@ -28,12 +28,12 @@ Plotting and saving:
 
 A virtual environment can be created using Anaconda that installs all necessary dependencies:
 
-`conda create -n test_pdft pip python=3.7`
-`conda activate test_pdft`
+```conda create -n test_pdft pip python=3.7```
+```conda activate test_pdft```
 
 Then cd or provide the full path to the setup.py file and pip install:
 
-`pip install /full/path/to/pdf_tonality/setup.py`
+```pip install /full/path/to/pdf_tonality/setup.py```
 
 From within this virtual environment, you can now load the library, for example `from pdf_tonality import pdf_tonality as pdft`.
 
@@ -41,6 +41,6 @@ From within this virtual environment, you can now load the library, for example 
 
 Two examples are provided in the folder `pdf_tonality/examples`. To run them from within the virtual environment:
 
-`python /full/path/to/pdf_tonality/examples/example1.py`
+```python /full/path/to/pdf_tonality/examples/example1.py```
 
-`python /full/path/to/pdf_tonality/examples/example2.py`
+```python /full/path/to/pdf_tonality/examples/example2.py```
