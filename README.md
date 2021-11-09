@@ -8,6 +8,8 @@ When given a set of MIDI pitches (e.g., 69.45 = A440 plus 45 cents) rounded to t
 
 With that information, the package then determines which notes are in- or out-of-key. However, the "chance" proportion of in-key notes changes depending on the number of notes, and to a lesser degree, on the durations of each note. Our solution was to calculate a null distribution of proportions using randomly generated pitches, which can then be used to calculate a percentile and z-score of the original melody.
 
+As a final note, the major or minor keys were relevant to our initial study, but the package is designed so that others sets of intervals and weights can be used to generate a PDF besides the Krumhansl-Kessler ratings used here, and the function `build_diatonic_PDF()` even gives the possibility to generate randomly shaped PDFs. If the scale repeats in octaves, it can be used to generate a PDF.
+
 # Contents
 
 The package includes several tiers of functions:
