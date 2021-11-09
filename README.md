@@ -28,7 +28,7 @@ Plotting and saving:
 
 # installation
 
-A virtual environment with pip and python can be created using Anaconda:
+A virtual environment with `pip` and `python` can be created using Anaconda:
 
 ```bash
 conda create -n test_pdft pip python=3.7
@@ -38,13 +38,13 @@ conda create -n test_pdft pip python=3.7
 conda activate test_pdft
 ```
 
-Then cd or provide the full path to the setup.py file and pip install the package and all necessary dependencies (see setup.py for full list):
+Then cd or provide the full path to the package and pip install all necessary dependencies (see `setup.py` for full list):
 
 ```bash
 pip install ~/pdf_tonality
 ```
 
-From within this virtual environment, you can now load the library, for example:
+From within this virtual environment, you can now load the library in python, for example:
 ```python
 from pdf_tonality import pdf_tonality as pdft
 ```
