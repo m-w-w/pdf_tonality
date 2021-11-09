@@ -31,6 +31,7 @@ Plotting and saving:
 A virtual environment can be created using Anaconda that installs all necessary dependencies:
 
 ```conda create -n test_pdft pip python=3.7```
+
 ```conda activate test_pdft```
 
 Then cd or provide the full path to the setup.py file and pip install:
