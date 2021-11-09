@@ -1,6 +1,6 @@
 # pdf_tonality
 
-A python package for determining the proportion of in-key notes, as used in Weiss & Peretz (2021) [PREPRINT LINK] to analyze sung improvisations. Other common methods (e.g., Krumhansl-Schmuckler algorithm implemented in the MIDI Toolbox [LINK]) require notes to be rounded to the nearest semitone (12 semitones/levels), which distorts intervals, and assumes that the performer is in tune. The approach here uses a more continuous probability density function (PDF, 1200 cents/levels) representing the tonal hierarchy, and makes no assumptions about tuning except for octave equivalence. Hence, a tonic can be returned to the nearest cent.
+A python package for determining the proportion of in-key notes, as used in [Weiss & Peretz (2021)](https://psyarxiv.com/xev3w/) to analyze sung improvisations. Other common methods (e.g., Krumhansl-Kessler algorithm implemented in the [MIDI Toolbox](https://github.com/miditoolbox/1.1/blob/master/miditoolbox/kkkey.m)) require notes to be rounded to the nearest semitone (12 semitones/levels), which distorts intervals, and assumes that the performer is in tune. The approach here uses a more continuous probability density function (PDF, 1200 cents/levels) representing the tonal hierarchy, and makes no assumptions about tuning except for octave equivalence. Hence, a tonic can be returned to the nearest cent.
 
 The package includes several tiers of functions:
 
